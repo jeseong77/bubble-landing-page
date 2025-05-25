@@ -1,6 +1,6 @@
 import handInHandImage from '@/assets/images/hand-in-hand.png'; // Reusing the hero image
 
-export default function MessageGrid() {
+export default function MessageSection() {
     // Define content blocks for clarity
     const image1 = (
         <div className="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg shadow-md">

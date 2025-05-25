@@ -59,7 +59,7 @@ export default function TestimonialSlider() {
     useEffect(() => {
         const timer = setTimeout(() => {
             setCurrentIndexAndDirection(([prevIndex]) => [(prevIndex + 1) % mockReviews.length, 1]);
-        }, 8000);
+        }, 7000);
 
         return () => clearTimeout(timer); // Cleanup timer
     }, [currentIndex]);
